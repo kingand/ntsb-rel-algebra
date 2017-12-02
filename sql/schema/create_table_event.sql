@@ -1,0 +1,20 @@
+CREATE TABLE ntsb_evt(
+    evt_number VARCHAR(20),
+    evt_date_time TIMESTAMP WITH TIME ZONE,
+    evt_flt_category VARCHAR(20),
+    evt_injury_count NUMBER(4),
+    evt_severity VARCHAR(20),
+    evt_flt_conduct_under VARCHAR(30),
+    aircr_wt_at_evt NUMBER(8,2),
+    elt_mounted_flag NUMBER(1),
+    elt_connected_flag NUMBER(1),
+    elt_activated_flag NUMBER(1),
+    elt_aided_in_loc_flag NUMBER(1),
+    met_cond_accident_site VARCHAR(10),
+    met_cond_light VARCHAR(20),
+    evt_on_airpt_flag NUMBER(1),
+    evt_distance_from_airpt_cent NUMBER(4,2),
+    evt_direction_to_airpt VARCHAR(20),
+    evt_flt_segment VARCHAR(40),
+    PRIMARY KEY (evt_number)
+);
