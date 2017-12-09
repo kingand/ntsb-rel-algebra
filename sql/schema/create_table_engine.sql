@@ -5,7 +5,7 @@ CREATE TABLE ntsb_engine(
     eng_mfr_date DATE,
     eng_rated_pwr NUMBER(8),
     eng_rated_pwr_unit VARCHAR(10),
-    eng_tot_hr_count NUMBER(9),
+    eng_tot_hr_count NUMBER(9,1),
     eng_last_insp_t_elap NUMBER(6),
     eng_last_overh_t_elap NUMBER(6),
     eng_type VARCHAR(40),
