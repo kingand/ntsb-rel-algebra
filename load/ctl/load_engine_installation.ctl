@@ -3,7 +3,7 @@ load data
     infile "../data/engine_installation.csv"
     badfile "../tmp/engine_installation.bad"
     discardfile  ""../tmp/engine_installation.dsc"
-    into table employee
+    into table ntsb_engine_installation
     fields terminated by "|"
     (
         eng_mfrr,

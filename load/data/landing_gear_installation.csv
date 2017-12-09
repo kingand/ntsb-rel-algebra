@@ -1,8 +1,2 @@
-landing_gear_type|aircr_serial_num|aircr_mfrr
-single|0
-single|1
-single|0
-single|0
-multiple|1
-single|0
-single|1
+landing_gear_type|landing_gear_retr_flag|aircr_serial_num|aircr_mfrr
+Skid|0|105-0395|Hughes

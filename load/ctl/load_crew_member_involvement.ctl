@@ -3,7 +3,7 @@ load data
     infile "../data/crew_member_involvement.csv"
     badfile "../tmp/crew_member_involvement.bad"
     discardfile  ""../tmp/crew_member_involvement.dsc"
-    into table employee
+    into table ntsb_crew_mem_involv
     fields terminated by "|"
     (
         evt_number,

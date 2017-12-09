@@ -1,4 +1,4 @@
-CREATE TABLE ntsb_propeller_inclusion(
+CREATE TABLE ntsb_engine_installation(
     eng_mfrr VARCHAR(40) REFERENCES ntsb_engine(eng_mfrr),
     eng_serial_num VARCHAR(40) REFERENCES ntsb_engine(eng_serial_num),
     aircr_serial_num VARCHAR(30) REFERENCES ntsb_aircraft(aircr_serial_num),

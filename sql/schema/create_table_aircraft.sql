@@ -10,6 +10,6 @@ CREATE TABLE ntsb_aircraft(
     aircr_ifr_equipped_crt_flag NUMBER(1),
     aircr_comm_spcflt_flag NUMBER(1),
     aircr_unmanned_flag NUMBER(1),
-    aircr_category VARCHAR(40),
+    aircr_category_name VARCHAR(30) REFERENCES ntsb_aircraft_category(aircr_category_name),
     PRIMARY KEY (aircr_serial_num, aircr_mfrr)
 );

@@ -3,7 +3,7 @@ load data
     infile "../data/approach.csv"
     badfile "../tmp/approach.bad"
     discardfile  ""../tmp/approach.dsc"
-    into table employee
+    into table ntsb_approach
     fields terminated by "|"
     (
         runway_id,

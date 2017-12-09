@@ -3,7 +3,7 @@ load data
     infile "../data/propeller_inclusion.csv"
     badfile "../tmp/propeller_inclusion.bad"
     discardfile  ""../tmp/propeller_inclusion.dsc"
-    into table employee
+    into table ntsb_propeller_inclusion
     fields terminated by "|"
     (
         propeller_manufacturer,

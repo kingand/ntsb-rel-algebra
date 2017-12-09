@@ -3,7 +3,7 @@ load data
     infile "../data/pilot_certification_achievement.csv"
     badfile "../tmp/pilot_certification_achievement.bad"
     discardfile  ""../tmp/pilot_certification_achievement.dsc"
-    into table employee
+    into table ntsb_pilot_cert_ach
     fields terminated by "|"
     (
         pilot_cert_type,

@@ -3,11 +3,11 @@ load data
     infile "../data/event.csv"
     badfile "../tmp/event.bad"
     discardfile  ""../tmp/event.dsc"
-    into table employee
+    into table ntsb_event
     fields terminated by "|"
     (
         evt_number,
-        evt_datetime,
+        evt_datetime timestamp 'YYYY-MM-DD HH:MI:SS TZH:TZM',
         evt_flt_category,
         evt_injury_count,
         evt_severity,
@@ -23,8 +23,10 @@ load data
         evt_collision_type,
         aircr_serial_num,
         aircr_mfrr,
-        geo_location_latitude,
-        geo_location_longitude,
+        geo_location_lat_deg,
+        geo_location_lat_dir,
+        geo_location_lon_deg,
+        geo_location_lon_dir,
         flt_itin_departure_time,
         flt_itin_aircr_serial_num,
         flt_itin_aircr_mfrr

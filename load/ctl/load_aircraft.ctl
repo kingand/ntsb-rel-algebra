@@ -3,7 +3,7 @@ load data
     infile "../data/aircraft.csv"
     badfile "../tmp/aircraft.bad"
     discardfile  ""../tmp/aircraft.dsc"
-    into table employee
+    into table ntsb_aircraft
     fields terminated by "|"
     (
         aircr_serial_num,

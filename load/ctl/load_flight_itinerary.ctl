@@ -3,7 +3,7 @@ load data
     infile "../data/flight_itinerary.csv"
     badfile "../tmp/flight_itinerary.bad"
     discardfile  ""../tmp/flight_itinerary.dsc"
-    into table employee
+    into table ntsb_flight_itinerary
     fields terminated by "|"
     (
         flight_departure_time,
