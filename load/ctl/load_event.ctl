@@ -1,5 +1,8 @@
+options (skip=1)
 load data
     infile "../data/event.csv"
+    badfile "../tmp/event.bad"
+    discardfile  ""../tmp/event.dsc"
     into table employee
     fields terminated by "|"
     (

@@ -1,5 +1,8 @@
+options (skip=1)
 load data
     infile "../data/approach.csv"
+    badfile "../tmp/approach.bad"
+    discardfile  ""../tmp/approach.dsc"
     into table employee
     fields terminated by "|"
     (
