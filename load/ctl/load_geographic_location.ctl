@@ -9,6 +9,5 @@ load data
         geo_location_lat_deg,
         geo_location_lat_dir,
         geo_location_lon_deg,
-        geo_location_lon_dir,
-        event_number
+        geo_location_lon_dir
     )
