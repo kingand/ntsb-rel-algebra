@@ -14,14 +14,39 @@ CREATE TABLE ntsb_event(
     evt_flt_segment VARCHAR(40),
     evt_runway_condition VARCHAR(40),
     evt_collision_type VARCHAR(40),
-    aircr_serial_num VARCHAR(30) REFERENCES ntsb_aircraft(aircr_serial_num),
-    aircr_mfrr VARCHAR(30) REFERENCES ntsb_aircraft(aircr_mfrr),
-    geo_location_lat_deg NUMBER(2,10) REFERENCES ntsb_geo_location(geo_location_lat_deg),
-    geo_location_lat_dir VARCHAR(1) REFERENCES ntsb_geo_location(geo_location_lat_dir),
-    geo_location_lon_deg NUMBER(3,10) REFERENCES ntsb_geo_location(geo_location_lon_deg),
-    geo_location_lon_dir VARCHAR(1) REFERENCES ntsb_geo_location(geo_location_lon_dir),
+    aircr_serial_num VARCHAR(30),
+    aircr_mfrr VARCHAR(30),
+    geo_location_lat_deg NUMBER(2,10),
+    geo_location_lat_dir VARCHAR(1),
+    geo_location_lon_deg NUMBER(3,10),
+    geo_location_lon_dir VARCHAR(1),
     flt_itin_departure_time TIMESTAMP WITH TIME ZONE REFERENCES ntsb_flight_itinerary(flt_itin_departure_time),
-    flt_itin_aircr_serial_num VARCHAR(30) REFERENCES ntsb_flight_itinerary(aircr_serial_num),
-    flt_itin_aircr_mfrr VARCHAR(30) REFERENCES ntsb_flight_itinerary(aircr_mfrr),
-    PRIMARY KEY (evt_number)
+    flt_itin_aircr_serial_num VARCHAR(30),
+    flt_itin_aircr_mfrr VARCHAR(30),
+    PRIMARY KEY (evt_number),
+    FOREIGN KEY (
+        geo_location_lat_deg,
+        geo_location_lat_dir,
+        geo_location_lon_deg,
+        geo_location_lon_dir
+    ) REFERENCES ntsb_geo_location(
+        geo_location_lat_deg,
+        geo_location_lat_dir,
+        geo_location_lon_deg,
+        geo_location_lon_dir
+    ),
+    FOREIGN KEY (
+        aircr_serial_num,
+        aircr_mfrr
+    ) REFERENCES ntsb_aircraft(
+        aircr_serial_num,
+        aircr_mfrr
+    ),
+    FOREIGN KEY (
+        flt_itin_aircr_serial_num,
+        flt_itin_aircr_mfrr
+    ) REFERENCES ntsb_flight_itinerary(
+        flt_itin_aircr_serial_num,
+        flt_itin_aircr_mfrr
+    )
 );
