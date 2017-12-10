@@ -7,6 +7,7 @@ load data
     fields terminated by "|"
     (
         runway_id,
+        runway_airport_id,
         event_number,
         ifr_approach_type,
         vfr_approach_type

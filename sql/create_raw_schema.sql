@@ -16,7 +16,7 @@
 @schema/create_table_instructor_rating_achievement;
 @schema/create_table_instrument_rating_achievement;
 @schema/create_table_other_aircraft_rating_achievement;
-@schema/create_table_pilot_certificate_achievement;
+@schema/create_table_pilot_cert_achievement;
 @schema/create_table_runway;
 
 @schema/create_table_aircraft_involvement;

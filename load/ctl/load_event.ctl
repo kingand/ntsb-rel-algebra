@@ -27,7 +27,7 @@ load data
         geo_location_lat_dir,
         geo_location_lon_deg,
         geo_location_lon_dir,
-        flt_itin_departure_time,
+        flt_itin_id,
         flt_itin_aircr_serial_num,
         flt_itin_aircr_mfrr
     )

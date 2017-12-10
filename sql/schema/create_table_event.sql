@@ -20,7 +20,7 @@ CREATE TABLE ntsb_event(
     geo_location_lat_dir VARCHAR(1),
     geo_location_lon_deg NUMBER(3,10),
     geo_location_lon_dir VARCHAR(1),
-    flt_itin_departure_time TIMESTAMP WITH TIME ZONE REFERENCES ntsb_flight_itinerary(flt_itin_departure_time),
+    flt_itin_id VARCHAR(30),
     flt_itin_aircr_serial_num VARCHAR(30),
     flt_itin_aircr_mfrr VARCHAR(30),
     PRIMARY KEY (evt_number),
@@ -43,10 +43,12 @@ CREATE TABLE ntsb_event(
         aircr_mfrr
     ),
     FOREIGN KEY (
+        flt_itin_id,
         flt_itin_aircr_serial_num,
         flt_itin_aircr_mfrr
     ) REFERENCES ntsb_flight_itinerary(
-        flt_itin_aircr_serial_num,
-        flt_itin_aircr_mfrr
+        flight_itin_id,
+        aircr_serial_num,
+        aircr_mfrr
     )
 );
