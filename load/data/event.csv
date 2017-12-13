@@ -1,1 +1,2 @@
-ERA14CA213|2014-04-29 13:42:00-EST|Instructional|0|Substantial|FAR 91|3900||Day|1|0|N/A|Final|Dry|None
+evt_number|evt_datetime|evt_flt_category|evt_injury_count|evt_severity|evt_flt_conduct_under|aircr_wt_at_evt|met_cond_accident_site|met_cond_light|evt_on_airpt_flag|evt_distance_from_airpt_cent|evt_direction_to_airpt|evt_flt_segment|evt_runway_condition|evt_collision_type|aircr_serial_num|aircr_mfrr|geo_location_lat_deg|geo_location_lat_dir|geo_location_lon_deg|geo_location_lon_dir|flt_itin_id|flt_itin_aircr_serial_num|flt_itin_aircr_mfrr
+ERA14CA213|2014-04-29 13:42 -05:00|Instructional|0|Substantial|FAR 91|3900||Day|1|0|N/A|Final|Dry|None|||||||||
