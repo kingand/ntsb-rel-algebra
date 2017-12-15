@@ -13,7 +13,6 @@ INSERT INTO ntsb_engine (
     'Lycoming',
     'RL-13741-36A',
     'O-360-A1D',
-    'O-360-A1D',
     '2003-01-30',
     180,
     'Horsepower',
@@ -41,7 +40,7 @@ INSERT INTO ntsb_engine (
     '',
     180,
     'Horsepower',
-    ,
+    0,
     12,
     461,
     'Reciprocating'
@@ -113,9 +112,9 @@ INSERT INTO ntsb_engine (
     '',
     100,
     'Horsepower',
-    ,
-    ,
-    ,
+    0,
+    0,
+    0,
     'Reciprocating'
 );
 
@@ -136,9 +135,10 @@ INSERT INTO ntsb_engine (
     '912UH',
     '',
     90,
+    'Horsepower'
     811,
     21,
-    ,
+    0,
     'Reciprocating'
 );
 
@@ -159,10 +159,10 @@ INSERT INTO ntsb_engine (
     'RM2-20A001',
     '2014-10-14',
     60000,
-    lbs of Thrust,
-    ,
-    ,
-    ,
+    'lbs of Thrust',
+    0,
+    0,
+    0,
     'Hybrid Rocket'
 );
 
@@ -182,11 +182,11 @@ INSERT INTO ntsb_engine (
     '1',
     'M19',
     '',
-    ,
-    ,
+    0,
+    'Horsepower',
     0.1,
     0,
-    ,
+    0,
     'Electric'
 );
 
@@ -210,6 +210,7 @@ INSERT INTO ntsb_engine (
 'Horsepower',
 75,
 6,
+0,
 'Reciprocating'
 );
 
@@ -233,6 +234,7 @@ INSERT INTO ntsb_engine (
 'Horsepower',
 75,
 6,
+0,
 'Reciprocating'
 );
 
@@ -254,8 +256,8 @@ INSERT INTO ntsb_engine (
 '',
 100,
 'Horsepower',
-,
-,
-,
+0,
+0,
+0,
 'Reciprocating'
 );
