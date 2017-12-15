@@ -45,7 +45,7 @@ None,
 ,
 ,
 4,
-);
+4);
 
 INSERT INTO ntsb_event (
     evt_number,
@@ -91,53 +91,7 @@ FAR137,
 ,
 ,
 ,
-,
-2);
-
-INSERT INTO ntsb_event (
-    evt_number,
-    evt_datetime,
-    evt_flt_category,
-    evt_injury_count,
-    evt_severity,
-    evt_flt_conduct_under,
-    aircr_wt_at_evt,
-    met_cond_accident_site,
-    met_cond_light,
-    evt_on_airpt_flag,
-    evt_distance_from_airpt_cent,
-    evt_direction_to_airpt,
-    evt_flt_segment,
-    evt_runway_condition,
-    evt_collision_type,
-    aircr_id,
-    geo_location_lat_deg,
-    geo_location_lat_dir,
-    geo_location_lon_deg,
-    geo_location_lon_dir,
-    flt_itin_id,
-    flt_itin_aircr_id
-) VALUES (
-2016-07-29 09:00 -06:00,
-Aerial Application,
-0,
-None,
-FAR137,
-1600,
-,
-,
-,
-,
-,
-,
-,
-,
 2,
-,
-,
-,
-,
-,
 2);
 
 INSERT INTO ntsb_event (
@@ -184,7 +138,7 @@ FAR91,
 ,
 ,
 ,
-,
+1,
 1);
 
 INSERT INTO ntsb_event (
@@ -231,7 +185,7 @@ None,
 ,
 ,
 ,
-,
+3,
 3);
 
 INSERT INTO ntsb_event (
@@ -278,7 +232,7 @@ None,
 ,
 ,
 ,
-,
+8,
 8);
 
 INSERT INTO ntsb_event (
@@ -325,7 +279,7 @@ Fatality,
 ,
 ,
 ,
-,
+9,
 9);
 
 INSERT INTO ntsb_event (
@@ -352,7 +306,7 @@ INSERT INTO ntsb_event (
     flt_itin_id,
     flt_itin_aircr_id
 ) VALUES (
-LAX93FA352,
+wpr14la179,
 2014-04-30 10:00 -08:00,
 Personal,
 0,
@@ -372,7 +326,7 @@ None,
 ,
 ,
 ,
-,
+5,
 5);
 
 INSERT INTO ntsb_event (
@@ -399,7 +353,7 @@ INSERT INTO ntsb_event (
     flt_itin_id,
     flt_itin_aircr_id
 ) VALUES (
-LAX93FA352,
+577454,
 2014-10-31 10:07 -08:00,
 Flight Test,
 2,
@@ -419,7 +373,7 @@ Fatality,
 ,
 ,
 ,
-,
+6,
 6);
 
 INSERT INTO ntsb_event (
@@ -446,7 +400,7 @@ INSERT INTO ntsb_event (
     flt_itin_id,
     flt_itin_aircr_id
 ) VALUES (
-LAX93FA352,
+583120,
 2015-05-01 11:07 -07:00,
 Flight Test,
 0,
@@ -466,7 +420,7 @@ None,
 ,
 ,
 ,
-,
+7,
 7);
 
 
