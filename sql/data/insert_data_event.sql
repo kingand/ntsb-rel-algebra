@@ -420,5 +420,5 @@ INSERT INTO ntsb_event (
 '',
 '',
 '',
-'7',
+7,
 7);
