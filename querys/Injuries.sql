@@ -28,13 +28,13 @@ DECLARE
         );
 
         ops.go(
-            ops.reduce_ra('Eng_Event_Pair', 'aircr_id, aircr_id=Engine.aircr_id', 'evt_number, evt_injury_count, eng_tot_hr_count', 'Eng_Aircr_ID') )
+            ops.reduce_ra('Eng_Event_Pair', 'aircr_id, aircr_id=Engine.aircr_id', 'evt_number, evt_injury_count, eng_tot_hr_count', 'Eng_Aircr_ID')
         );
 
 
 
         ops.go(
-            ops.group_ra('Eng_Aircr_ID', 'eng_tot_hr_count', 'total_injury_count = SUM(evt_injury_count', eng_hr_cnt_with_injury_cnt)
+            ops.group_ra('Eng_Aircr_ID', 'eng_tot_hr_count', 'total_injury_count = SUM(evt_injury_count', 'eng_hr_cnt_with_injury_cnt')
         );
 
 

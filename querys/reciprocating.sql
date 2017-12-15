@@ -13,7 +13,7 @@ ops.go(
 );
 
 ops.go(
-    ops.mjoin_ra('ntsb_aircraft', 'ID_Recip_Eng_Inst', 'aircr_id', 'aircr_id', 'Aircr_with_Recip')  )
+    ops.mjoin_ra('ntsb_aircraft', 'ID_Recip_Eng_Inst', 'aircr_id', 'aircr_id', 'Aircr_with_Recip')
 );
 
 ops.go(
