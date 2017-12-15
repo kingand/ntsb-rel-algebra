@@ -13,19 +13,19 @@ ops.go(
 );
 
 ops.go(
-    ops.filter_ra('Dept_Dest_Airport_ID_pair', 'departure_airport_id <> destination_airport_id', 'Dept_Dest_Airport_ID_not_equal')
+    ops.filter_ra('Dept_Dest_Airport_ID_pair', 'departure_airport_id <> destination_airport_id', 'Dept_Dest_Airport_ID_not_eq')
 );
 
 ops.go(
-    ops.filter_ra('Dept_Dest_Airport_ID_pair', 'departure_airport_id = destination_airport_id', 'Dept_Dest_Airport_ID_equal')
+    ops.filter_ra('Dept_Dest_Airport_ID_pair', 'departure_airport_id = destination_airport_id', 'Dept_Dest_Airport_ID_eq')
 );
 
 ops.go(
-    ops.group_ra('Dept_Dest_Airport_ID_not_equal', ops.allcols('Dept_Dest_Airport_ID_not_equal'), 'flight_caregory=''round robin''', 'Count_RR_flights')
+    ops.group_ra('Dept_Dest_Airport_ID_not_eq', ops.allcols('Dept_Dest_Airport_ID_not_eq'), 'flight_caregory=''round robin''', 'Count_RR_flights')
 );
 
 ops.go(
-    ops.group_ra('Dept_Dest_Airport_ID_equal', ops.allcols('Dept_Dest_Airport_ID_equal'), 'flight_caregory=''not round robin''', 'Count_Not_RR_flights')
+    ops.group_ra('Dept_Dest_Airport_ID_eq', ops.allcols('Dept_Dest_Airport_ID_eq'), 'flight_caregory=''not round robin''', 'Count_Not_RR_flights')
 );
 
 ops.go(
@@ -37,7 +37,7 @@ ops.go(
 );
 
 ops.go(
-    ops.union_ra('RR_Flight_Count', 'Not_RR_Flight_Count', 'Flight_Category_with_Count')
+    ops.union_ra('RR_Flight_Count', 'Not_RR_Flight_Count', 'Flight_Category_w_Count')
 );
 END;
 /
