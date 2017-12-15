@@ -5,9 +5,7 @@ DECLARE
         );
 
         ops.go(
-            ops.filter_ra(
-                ops.filter_ra('Eng_EngInst_pair', 'eng.eng_mfrr=install.eng_mfrr, eng.eng_serial_num=install.eng_serial_num', 'Eng_Eng_Pair')
-            )
+            ops.filter_ra('Eng_EngInst_pair', 'eng.eng_mfrr=install.eng_mfrr, eng.eng_serial_num=install.eng_serial_num', 'Eng_Eng_Pair')
         );
 
         ops.go(
@@ -20,9 +18,7 @@ DECLARE
         );
 
         ops.go(
-            ops.filter_ra(
-                ops.filter_ra('Eng_Event', 'evt.aircr_id=hour.aircr_id', 'Eng_Event_Pair')
-            )
+            ops.filter_ra('Eng_Event', 'evt.aircr_id=hour.aircr_id', 'Eng_Event_Pair')
         );
 
         ops.go(
