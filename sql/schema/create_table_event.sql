@@ -38,6 +38,6 @@ CREATE TABLE ntsb_event(
         flt_itin_aircr_id
     ) REFERENCES ntsb_flight_itinerary(
         flight_itin_id,
-        flt_itin_aircr_id
+        aircr_id
     )
 );
