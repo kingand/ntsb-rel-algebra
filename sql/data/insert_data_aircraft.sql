@@ -11,7 +11,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category_name_name
+    aircr_category_name
 ) VALUES (
 1,
 '690026',

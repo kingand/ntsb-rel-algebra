@@ -2,7 +2,7 @@
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Lycoming',
@@ -26,7 +26,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Cont',
@@ -38,7 +38,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Avco Lycoming',
@@ -50,7 +50,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Avco Lycoming',
@@ -62,7 +62,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Rotax',
@@ -74,7 +74,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Scaled Composites',
@@ -85,7 +85,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Ramazani & Assoc',
@@ -97,7 +97,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Cont',
@@ -109,7 +109,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Electramotive',
@@ -120,7 +120,7 @@ INSERT INTO ntsb_engine_installation (
 INSERT INTO ntsb_engine_installation (
     eng_mfrr,
     eng_serial_num,
-    aircr_id
+    aircr_id,
     eng_num
 ) VALUES (
 'Electramotive',

@@ -5,7 +5,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'KDLH',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -15,7 +15,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'KONA',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -25,7 +25,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'PrivateAirField',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -35,7 +35,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'Waren Muni',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -45,7 +45,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'KFPR',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -55,7 +55,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'PWT',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -65,7 +65,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'KMHV',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -75,7 +75,7 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'Private Areodome',
     '',
-
+    0
 );
 
 INSERT INTO ntsb_airport (
@@ -85,5 +85,5 @@ INSERT INTO ntsb_airport (
 ) VALUES (
     'Lemmon Valley',
     '',
-
+    0
 );
