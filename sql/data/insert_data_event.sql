@@ -320,7 +320,6 @@ INSERT INTO ntsb_event (
 '',
 '',
 '',
-
 '',
 5,
 '',
