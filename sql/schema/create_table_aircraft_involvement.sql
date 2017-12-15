@@ -1,5 +1,5 @@
 CREATE TABLE ntsb_aircr_involv_wreck(
-    aircr_id NUMBER(5) REFERENCES ntsb_airport(airport_id),
+    aircr_id NUMBER(5) REFERENCES ntsb_aircraft(aircr_id),
     geo_location_lat_deg NUMBER(2,10),
     geo_location_lat_dir VARCHAR(1),
     geo_location_lon_deg NUMBER(3,10),
