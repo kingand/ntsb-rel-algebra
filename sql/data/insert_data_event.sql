@@ -37,9 +37,7 @@ INSERT INTO ntsb_event (
 'Final',
 'Dry',
 'None',
-'',
 4,
-'',
 '',
 '',
 '',
@@ -212,7 +210,7 @@ INSERT INTO ntsb_event (
     flt_itin_id,
     flt_itin_aircr_id
 ) VALUES (
-'GAA17CA100',
+'GAA17CA101',
 '',
 'Personal',
 0,
