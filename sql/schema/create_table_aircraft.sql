@@ -1,5 +1,5 @@
 CREATE TABLE ntsb_aircraft(
-	aircr_id NUMBER(5),
+    aircr_id NUMBER(5),
     aircr_serial_num VARCHAR(20),
     aircr_reg VARCHAR(6),
     aircr_mfrr VARCHAR(50),
