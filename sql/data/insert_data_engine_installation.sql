@@ -41,7 +41,7 @@ INSERT INTO ntsb_engine_installation (
     aircr_id,
     eng_num
 ) VALUES (
-'Avco Lycoming',
+'Lycoming',
 'RL-23428-36A',
 4,
 1
@@ -53,8 +53,8 @@ INSERT INTO ntsb_engine_installation (
     aircr_id,
     eng_num
 ) VALUES (
-'Avco Lycoming',
-'RL-671-71A',
+'Lycoming',
+'LO-360-A1G6D',
 4,
 2
 );
