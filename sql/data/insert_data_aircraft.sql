@@ -11,7 +11,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category_name
+    aircr_category_name_name
 ) VALUES (
 1,
 '690026',
@@ -41,7 +41,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 2,
 '105-0395',
@@ -70,7 +70,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 3,
 '',
@@ -100,7 +100,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 4,
 'ME-346',
@@ -130,7 +130,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 5,
 '452',
@@ -160,7 +160,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 6,
 '001',
@@ -190,7 +190,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 7,
 '0001',
@@ -219,7 +219,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 8,
 '15068059',
@@ -248,7 +248,7 @@ INSERT INTO ntsb_aircraft (
     aircr_ifr_equipped_crt_flag,
     aircr_comm_spcflt_flag,
     aircr_unmanned_flag,
-    aircr_category
+    aircr_category_name
 ) VALUES (
 9,
 '',
