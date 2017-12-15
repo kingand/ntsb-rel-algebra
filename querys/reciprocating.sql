@@ -9,7 +9,7 @@ BEGIN
   );
 
 ops.go(
-    ops.divide_ra('ntsb_engine_installation', 'ID_Recip_Eng', 'ID_Recip_Eng_Inst')
+    ops.divide_ra('ID_Recip_Eng', 'ntsb_engine_installation', 'ID_Recip_Eng_Inst')
 );
 
 ops.go(
