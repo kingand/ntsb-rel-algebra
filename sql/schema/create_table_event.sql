@@ -14,8 +14,7 @@ CREATE TABLE ntsb_event(
     evt_flt_segment VARCHAR(40),
     evt_runway_condition VARCHAR(40),
     evt_collision_type VARCHAR(40),
-    aircr_serial_num VARCHAR(30),
-    aircr_mfrr VARCHAR(30),
+    aircr_id NUMBER(5),
     geo_location_lat_deg NUMBER(2,10),
     geo_location_lat_dir VARCHAR(1),
     geo_location_lon_deg NUMBER(3,10),
@@ -36,11 +35,9 @@ CREATE TABLE ntsb_event(
         geo_location_lon_dir
     ),
     FOREIGN KEY (
-        aircr_serial_num,
-        aircr_mfrr
+        aircr_id
     ) REFERENCES ntsb_aircraft(
-        aircr_serial_num,
-        aircr_mfrr
+        aircr_id
     ),
     FOREIGN KEY (
         flt_itin_id,
@@ -48,7 +45,6 @@ CREATE TABLE ntsb_event(
         flt_itin_aircr_mfrr
     ) REFERENCES ntsb_flight_itinerary(
         flight_itin_id,
-        aircr_serial_num,
-        aircr_mfrr
+        aircr_id
     )
 );
