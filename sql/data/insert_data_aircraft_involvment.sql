@@ -10,12 +10,12 @@ INSERT INTO ntsb_aircraft_category (
     aircr_explosion
 ) VALUES (
     105-0395,
-    "Hughes",
+    'Hughes',
     45.561,
-    "N",
+    'N',
     5.855,
-    "W",
-    "Substantial",
-    "None",
-    "None"
+    'W',
+    'Substantial',
+    'None',
+    'None'
 );

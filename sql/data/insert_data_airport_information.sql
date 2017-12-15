@@ -3,8 +3,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "KDLH",
-    "",
+    'KDLH',
+    '',
 
 );
 
@@ -13,8 +13,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "KONA",
-    "",
+    'KONA',
+    '',
 
 );
 
@@ -23,8 +23,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "PrivateAirField",
-    "",
+    'PrivateAirField',
+    '',
 
 );
 
@@ -33,8 +33,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "Waren Muni",
-    "",
+    'Waren Muni',
+    '',
 
 );
 
@@ -43,8 +43,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "KFPR",
-    "",
+    'KFPR',
+    '',
 
 );
 
@@ -53,8 +53,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "PWT",
-    "",
+    'PWT',
+    '',
 
 );
 
@@ -63,8 +63,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "KMHV",
-    "",
+    'KMHV',
+    '',
 
 );
 
@@ -73,8 +73,8 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "Private Areodome",
-    "",
+    'Private Areodome',
+    '',
 
 );
 
@@ -83,7 +83,7 @@ INSERT INTO ntsb_airport (
     airport_name,
     airport_elevation
 ) VALUES (
-    "Lemmon Valley",
-    "",
+    'Lemmon Valley',
+    '',
 
 );

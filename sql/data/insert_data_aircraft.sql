@@ -14,10 +14,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 1,
-"690026",
-"N9149V",
-"Mooney",
-"M20C Ranger",
+'690026',
+'N9149V',
+'Mooney',
+'M20C Ranger',
 1969,
 0,
 4,
@@ -25,7 +25,7 @@ INSERT INTO ntsb_aircraft (
 1,
 0,
 0,
-"Airplane"
+'Airplane'
 );
 
 INSERT INTO ntsb_aircraft (
@@ -44,10 +44,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 2,
-"105-0395",
-"N269JB",
-"Hughes",
-"TH-55/269A",
+'105-0395',
+'N269JB',
+'Hughes',
+'TH-55/269A',
 1965,
 0,
 2,
@@ -55,7 +55,7 @@ INSERT INTO ntsb_aircraft (
 0,
 0,
 0,
-"Helicopter"
+'Helicopter'
 );
 INSERT INTO ntsb_aircraft (
 	aircr_id,
@@ -73,10 +73,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 3,
-"",
-"N7961F",
-"Cessna",
-"150F",
+'',
+'N7961F',
+'Cessna',
+'150F',
 1967,
 0,
 2,
@@ -84,7 +84,7 @@ INSERT INTO ntsb_aircraft (
 ,
 ,
 0,
-"Airplane"
+'Airplane'
 );
 
 INSERT INTO ntsb_aircraft (
@@ -103,10 +103,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 4,
-"ME-346",
-"N6756X",
-"Beechcraft",
-"BE-76 Duchess",
+'ME-346',
+'N6756X',
+'Beechcraft',
+'BE-76 Duchess',
 ,
 0,
 4,
@@ -114,7 +114,7 @@ INSERT INTO ntsb_aircraft (
 1,
 0,
 0,
-"Airplane"
+'Airplane'
 );
 
 INSERT INTO ntsb_aircraft (
@@ -133,10 +133,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 5,
-"452",
-"N452PC",
-"H.C. Coulter / Aero Design",
-"Pulsar XP Series 1",
+'452',
+'N452PC',
+'H.C. Coulter / Aero Design',
+'Pulsar XP Series 1',
 ,
 1,
 2,
@@ -144,7 +144,7 @@ INSERT INTO ntsb_aircraft (
 0,
 0,
 0,
-"Airplane"
+'Airplane'
 );
 
 INSERT INTO ntsb_aircraft (
@@ -163,10 +163,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 6,
-"001",
-"N339SS",
-"Scaled Compossites LLC",
-"339 SpaceShipTwo",
+'001',
+'N339SS',
+'Scaled Compossites LLC',
+'339 SpaceShipTwo',
 2010,
 1,
 2,
@@ -174,7 +174,7 @@ INSERT INTO ntsb_aircraft (
 0,
 1,
 0,
-"Glider"
+'Glider'
 );
 
 INSERT INTO ntsb_aircraft (
@@ -193,10 +193,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 7,
-"0001",
-"N950TA",
-"Titan Aerospace Holdings Inc",
-"Solara 50",
+'0001',
+'N950TA',
+'Titan Aerospace Holdings Inc',
+'Solara 50',
 2015,
 0,
 0,
@@ -204,7 +204,7 @@ INSERT INTO ntsb_aircraft (
 0,
 0,
 0,
-"Airplane"
+'Airplane'
 );
 INSERT INTO ntsb_aircraft (
 	aircr_id,
@@ -222,10 +222,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 8,
-"15068059",
-"",
-"Cessna",
-"150H",
+'15068059',
+'',
+'Cessna',
+'150H',
 1967,
 0,
 2,
@@ -233,7 +233,7 @@ INSERT INTO ntsb_aircraft (
 ,
 0,
 0,
-"Airplane"
+'Airplane'
 );
 INSERT INTO ntsb_aircraft (
 	aircr_id,
@@ -251,10 +251,10 @@ INSERT INTO ntsb_aircraft (
     aircr_category
 ) VALUES (
 9,
-"",
-"N221BP",
-"Scaled Composites",
-"158-8",
+'',
+'N221BP',
+'Scaled Composites',
+'158-8',
 ,
 1,
 1,
@@ -262,5 +262,5 @@ INSERT INTO ntsb_aircraft (
 ,
 ,
 ,
-"Airplane"
+'Airplane'
 );
