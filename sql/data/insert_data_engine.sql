@@ -13,7 +13,7 @@ INSERT INTO ntsb_engine (
     'Lycoming',
     'RL-13741-36A',
     'O-360-A1D',
-    '2003-01-30',
+    '',
     180,
     'Horsepower',
     1184,
@@ -135,7 +135,7 @@ INSERT INTO ntsb_engine (
     '912UH',
     '',
     90,
-    'Horsepower'
+    'Horsepower',
     811,
     21,
     0,
@@ -157,7 +157,7 @@ INSERT INTO ntsb_engine (
     'Scaled Composites',
     '64',
     'RM2-20A001',
-    '2014-10-14',
+    '',
     60000,
     'lbs of Thrust',
     0,
@@ -178,7 +178,7 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    'Ramazani & Assoc',
+    'Ramazani and Assoc',
     '1',
     'M19',
     '',

@@ -88,7 +88,7 @@ INSERT INTO ntsb_engine_installation (
     aircr_id,
     eng_num
 ) VALUES (
-'Ramazani & Assoc',
+'Ramazani and Assoc',
 '1',
 7,
 1
