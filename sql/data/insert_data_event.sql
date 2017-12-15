@@ -23,7 +23,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'ERA14CA213',
-2014-04-29 13:42 -05:00,
+'2014-04-29 13:42 -05:00',
 'Instructional',
 0,
 'Substantial',
@@ -72,7 +72,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'CEN16LA303',
-2016-07-29 09:00 -06:00,
+'2016-07-29 09:00 -06:00',
 'Aerial Application',
 0,
 'None',
@@ -119,7 +119,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'CEN16LA101',
-2017-02-02 19:55 -06:00,
+'2017-02-02 19:55 -06:00',
 'Business',
 1,
 'Serious',
@@ -166,7 +166,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'GAA17CA100',
-2016-12-24 09:00 -06:00,
+'2016-12-24 09:00 -06:00',
 'Personal',
 0,
 'None',
@@ -213,7 +213,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'GAA17CA100',
-2016-12-24 09:00 -06:00,
+'2016-12-24 09:00 -06:00',
 'Personal',
 0,
 'None',
@@ -260,7 +260,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'LAX93FA352',
-1993-09-14 16:42 -08:00,
+'1993-09-14 16:42 -08:00',
 'Air Race/Show',
 1,
 'Fatality',
