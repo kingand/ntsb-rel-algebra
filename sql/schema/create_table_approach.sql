@@ -1,6 +1,6 @@
 CREATE TABLE ntsb_approach(
     runway_id VARCHAR(20),
-    runway_airport_id VARCHAR(10),
+    runway_airport_id VARCHAR(50),
     event_number VARCHAR(30) REFERENCES ntsb_event(evt_number),
     ifr_approach_type VARCHAR(30),
     vfr_approach_type VARCHAR(30),
