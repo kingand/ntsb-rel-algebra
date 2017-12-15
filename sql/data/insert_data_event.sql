@@ -23,7 +23,7 @@ INSERT INTO ntsb_event (
     flt_itin_aircr_id
 ) VALUES (
 'ERA14CA213',
-'2014-04-29 13:42 -05:00',
+'',
 'Instructional',
 0,
 'Substantial',
