@@ -108,7 +108,7 @@ INSERT INTO ntsb_engine (
     eng_type
 ) VALUES (
     Cont,
-    12345,
+    c23154,
     0-200,
     ,
     100,
@@ -188,4 +188,74 @@ INSERT INTO ntsb_engine (
     0,
     ,
     Electric
+);
+
+INSERT INTO ntsb_engine (
+    eng_mfrr,
+    eng_serial_num,
+    eng_model,
+    eng_mfr_date,
+    eng_rated_pwr,
+    eng_rated_pwr_unit,
+    eng_tot_hr_count,
+    eng_last_insp_t_elap,
+    eng_last_overh_t_elap,
+    eng_type
+) VALUES (
+Electramotive,
+1al4z,
+VG-30T,
+,
+1000,
+Horsepower,
+75,
+6,
+Reciprocating
+);
+
+INSERT INTO ntsb_engine (
+    eng_mfrr,
+    eng_serial_num,
+    eng_model,
+    eng_mfr_date,
+    eng_rated_pwr,
+    eng_rated_pwr_unit,
+    eng_tot_hr_count,
+    eng_last_insp_t_elap,
+    eng_last_overh_t_elap,
+    eng_type
+) VALUES (
+Electramotive,
+1al4y,
+VG-30T,
+,
+1000,
+Horsepower,
+75,
+6,
+Reciprocating
+);
+
+INSERT INTO ntsb_engine (
+    eng_mfrr,
+    eng_serial_num,
+    eng_model,
+    eng_mfr_date,
+    eng_rated_pwr,
+    eng_rated_pwr_unit,
+    eng_tot_hr_count,
+    eng_last_insp_t_elap,
+    eng_last_overh_t_elap,
+    eng_type
+) VALUES (
+Cont Motor,
+c15432,
+0-200,
+,
+100,
+Horsepower,
+,
+,
+,
+Reciprocating
 );
