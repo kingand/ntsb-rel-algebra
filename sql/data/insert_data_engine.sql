@@ -10,17 +10,17 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Lycoming,
-    RL-13741-36A,
-    O-360-A1D,
-    O-360-A1D,
-    2003-01-30,
+    "Lycoming",
+    "RL-13741-36A",
+    "O-360-A1D",
+    "O-360-A1D",
+    "2003-01-30",
     180,
-    Horsepower,
+    "Horsepower",
     1184,
     83,
     1184,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -35,16 +35,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (  
-    Lycoming,
-    L593751A,
-    HIO 360A1A,
-    ,
+    "Lycoming",
+    "L593751A",
+    "HIO 360A1A",
+    "",
     180,
-    Horsepower,
+    "Horsepower",
     ,
     12,
     461,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -59,16 +59,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Lycoming,
-    RL-23428-36A,
-    O-360-A1G6D,
-    ,
+    "Lycoming",
+    "RL-23428-36A",
+    "O-360-A1G6D",
+    "",
     180,
-    Horsepower,
+    "Horsepower",
     8242,
     49,
     2022,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -83,16 +83,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Lycoming,
-    LO-360-A1G6D,
-    RL671-71A,
-    ,
+    "Lycoming",
+    "LO-360-A1G6D",
+    "RL671-71A",
+    "",
     180,
-    Horsepower,
+    "Horsepower",
     8930,
     49,
     2433,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -107,16 +107,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Cont,
-    c23154,
-    0-200,
-    ,
+    "Cont",
+    "c23154",
+    "0-200",
+    "",
     100,
-    Horsepower,
+    "Horsepower",
     ,
     ,
     ,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -131,15 +131,15 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Rotax,
-    4401465,
-    912UH,
-    ,
+    "Rotax",
+    "4401465",
+    "912UH",
+    "",
     90,
     811,
     21,
     ,
-    Reciprocating
+    "Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -154,16 +154,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Scale Composites LLC,
-    64,
-    RM2-20A001,
-    2014-10-14,
+    "Scale Composites LLC",
+    "64",
+    "RM2-20A001",
+    "2014-10-14",
     60000,
     lbs of Thrust,
     ,
     ,
     ,
-    Hybrid Rocket
+    "Hybrid Rocket"
 );
 
 INSERT INTO ntsb_engine (
@@ -178,16 +178,16 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    Ramazani & Associates,
-    1,
-    M19,
-    2015-01-15,
+    "Ramazani & Associates",
+    "1",
+    "M19",
+    "",
     ,
     ,
     0.1,
     0,
     ,
-    Electric
+    "Electric"
 );
 
 INSERT INTO ntsb_engine (
@@ -202,15 +202,15 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-Electramotive,
-1al4z,
-VG-30T,
-,
+"Electramotive",
+"1al4z",
+"VG-30T",
+"",
 1000,
-Horsepower,
+"Horsepower",
 75,
 6,
-Reciprocating
+"Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -225,15 +225,15 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-Electramotive,
-1al4y,
-VG-30T,
-,
+"Electramotive",
+"1al4y",
+"VG-30T",
+"",
 1000,
-Horsepower,
+"Horsepower",
 75,
 6,
-Reciprocating
+"Reciprocating"
 );
 
 INSERT INTO ntsb_engine (
@@ -248,14 +248,14 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-Cont Motor,
-c15432,
-0-200,
-,
+"Cont Motor",
+"c15432",
+"0-200",
+"",
 100,
-Horsepower,
+"Horsepower",
 ,
 ,
 ,
-Reciprocating
+"Reciprocating"
 );

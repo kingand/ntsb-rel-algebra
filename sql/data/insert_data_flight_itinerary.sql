@@ -10,8 +10,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 1,
-KDLH,
-KONA
+"KDLH",
+"KONA"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -26,8 +26,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 2,
-PrivateAirField,
-PrivateAirField,
+"PrivateAirField",
+"PrivateAirField",
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -42,8 +42,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 3,
-Waren Muni,
-Waren Muni
+"Waren Muni",
+"Waren Muni"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -58,8 +58,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 4,
-KFPR,
-KFPR
+"KFPR",
+"KFPR"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -74,8 +74,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 5,
-PWT,
-PWT
+"PWT",
+"PWT"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -90,8 +90,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 6,
-KMHV,
-KMHV
+"KMHV",
+"KMHV"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -106,6 +106,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 7,
+"Private Areodome",
+"Private Areodome"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -120,8 +122,8 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 8,
-Private Areodome,
-Private Areodome
+"Private Areodome",
+"Private Areodome"
 );
 
 INSERT INTO ntsb_flight_itinerary (
@@ -136,6 +138,6 @@ INSERT INTO ntsb_flight_itinerary (
 ,
 ,
 9,
-Lemmon Valley,
-Lemmon Valley
+"Lemmon Valley",
+"Lemmon Valley"
 );
