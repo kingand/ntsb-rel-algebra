@@ -21,11 +21,11 @@ ops.go(
 );
 
 ops.go(
-    ops.group_ra('Dept_Dest_Airport_ID_not_eq', ops.allcols('Dept_Dest_Airport_ID_not_eq'), 'flight_caregory=''round robin''', 'Count_RR_flights')
+    ops.group_ra('Dept_Dest_Airport_ID_not_eq', ops.allcols('Dept_Dest_Airport_ID_not_eq'), 'flight_category=''round robin'',count=count(*)', 'Count_RR_flights')
 );
 
 ops.go(
-    ops.group_ra('Dept_Dest_Airport_ID_eq', ops.allcols('Dept_Dest_Airport_ID_eq'), 'flight_caregory=''not round robin''', 'Count_Not_RR_flights')
+    ops.group_ra('Dept_Dest_Airport_ID_eq', ops.allcols('Dept_Dest_Airport_ID_eq'), 'flight_category=''not round robin'',count=count(*)', 'Count_Not_RR_flights')
 );
 
 ops.go(
