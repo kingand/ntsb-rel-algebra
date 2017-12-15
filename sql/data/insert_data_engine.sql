@@ -132,7 +132,7 @@ INSERT INTO ntsb_engine (
     eng_type
 ) VALUES (
     'Rotax',
-    '4401465',
+    '4404465',
     '912UH',
     '',
     90,
@@ -154,7 +154,7 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    'Scale Composites LLC',
+    'Scaled Composites',
     '64',
     'RM2-20A001',
     '2014-10-14',
@@ -178,7 +178,7 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-    'Ramazani & Associates',
+    'Ramazani & Assoc',
     '1',
     'M19',
     '',
@@ -248,7 +248,7 @@ INSERT INTO ntsb_engine (
     eng_last_overh_t_elap,
     eng_type
 ) VALUES (
-'Cont Motor',
+'Cont',
 'c15432',
 '0-200',
 '',
