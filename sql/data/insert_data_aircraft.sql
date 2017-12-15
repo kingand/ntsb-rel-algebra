@@ -1,4 +1,5 @@
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -12,6 +13,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+1,
 690026,
 N9149V,
 Mooney,
@@ -27,6 +29,7 @@ Airplane
 );
 
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -40,6 +43,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+2,
 105-0395,
 N269JB,
 Hughes,
@@ -54,6 +58,7 @@ TH-55/269A,
 Helicopter
 );
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -67,7 +72,8 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
-C,
+3,
+,
 N7961F,
 Cessna,
 150F,
@@ -82,6 +88,7 @@ Airplane
 );
 
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -95,6 +102,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+4,
 ME-346,
 N6756X,
 Beechcraft,
@@ -110,6 +118,7 @@ Airplane
 );
 
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -123,6 +132,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+5,
 452,
 N452PC,
 H.C. Coulter / Aero Design,
@@ -138,6 +148,7 @@ Airplane
 );
 
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -151,6 +162,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+6,
 001,
 N339SS,
 Scaled Compossites LLC,
@@ -166,6 +178,7 @@ Glider
 );
 
 INSERT INTO ntsb_aircraft (
+	aircr_id,
     aircr_serial_num,
     aircr_reg,
     aircr_mfrr,
@@ -179,6 +192,7 @@ INSERT INTO ntsb_aircraft (
     aircr_unmanned_flag,
     aircr_category
 ) VALUES (
+7,
 0001,
 N950TA,
 Titan Aerospace Holdings Inc,
@@ -190,5 +204,63 @@ Solara 50,
 0,
 0,
 0,
+Airplane
+);
+INSERT INTO ntsb_aircraft (
+	aircr_id,
+    aircr_serial_num,
+    aircr_reg,
+    aircr_mfrr,
+    aircr_model,
+    aircr_year_of_mfr,
+    aircr_amateur_built_flag,
+    aircr_seat_count,
+    aircr_crt_max_gross_wt,
+    aircr_ifr_equipped_crt_flag,
+    aircr_comm_spcflt_flag,
+    aircr_unmanned_flag,
+    aircr_category
+) VALUES (
+8,
+15068059,
+,
+Cessna,
+150H,
+1967,
+0,
+2,
+1600,
+,
+0,
+0,
+Airplane
+);
+INSERT INTO ntsb_aircraft (
+	aircr_id,
+    aircr_serial_num,
+    aircr_reg,
+    aircr_mfrr,
+    aircr_model,
+    aircr_year_of_mfr,
+    aircr_amateur_built_flag,
+    aircr_seat_count,
+    aircr_crt_max_gross_wt,
+    aircr_ifr_equipped_crt_flag,
+    aircr_comm_spcflt_flag,
+    aircr_unmanned_flag,
+    aircr_category
+) VALUES (
+9,
+,
+N221BP,
+Scaled Composites,
+158-8,
+,
+1,
+1,
+4150,
+,
+,
+,
 Airplane
 );
