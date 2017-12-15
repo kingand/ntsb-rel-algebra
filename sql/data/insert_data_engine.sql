@@ -159,7 +159,7 @@ INSERT INTO ntsb_engine (
     'RM2-20A001',
     '',
     60000,
-    'lbs of Thrust',
+    'lbs',
     0,
     0,
     0,

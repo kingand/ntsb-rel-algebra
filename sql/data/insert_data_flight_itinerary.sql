@@ -2,7 +2,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -18,7 +18,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -27,14 +27,14 @@ INSERT INTO ntsb_flight_itinerary (
 0,
 2,
 'PrivateAirField',
-'PrivateAirField',
+'PrivateAirField'
 );
 
 INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -50,7 +50,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -66,7 +66,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -82,7 +82,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -98,7 +98,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -114,7 +114,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
@@ -130,7 +130,7 @@ INSERT INTO ntsb_flight_itinerary (
     flight_itin_id,
     flight_departure_time,
     flight_plan_activated_flag,
-    aircr_id
+    aircr_id,
     departure_airport_id,
     destination_airport_id
 ) VALUES (
